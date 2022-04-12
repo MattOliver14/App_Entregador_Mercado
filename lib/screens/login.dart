@@ -1,6 +1,8 @@
+import 'package:app_entregador_mercado/screens/register.dart';
 import 'package:flutter/material.dart';
-import 'package:user_edink/screens/homepage.dart';
-import 'package:user_edink/screens/register.dart';
+
+import 'homepage.dart';
+
 
 class Login extends StatefulWidget {
   const Login({Key key}) : super(key: key);
@@ -112,12 +114,19 @@ class _LoginState extends State<Login> {
                       height: 45,
                       width: size.width * 0.92,
                       decoration: BoxDecoration(
-                          color: Color(0xff7d00c6),
-                          borderRadius: BorderRadius.circular(15)),
-                      child: TextButton(
-                          style: TextButton.styleFrom(
-                            backgroundColor: Color(0xff7d00c6),
+                          gradient: LinearGradient(
+                            begin: Alignment.centerLeft,
+                            end: Alignment.centerRight,
+                            colors: [
+                              Color(0xff759bff),
+                              Color(0xff8704bb),
+                            ],
                           ),
+                          borderRadius: BorderRadius.circular(7)),
+                      child: TextButton(
+                          // style: TextButton.styleFrom(
+                          //   backgroundColor: Color(0xff7d00c6),
+                          // ),
                           child: Text(
                             'Login',
                             style: TextStyle(color: Colors.white, fontSize: 18),

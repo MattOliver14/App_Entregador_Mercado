@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:user_edink/screens/login.dart';
 
 import 'homepage.dart';
+import 'login.dart';
 
 class Register extends StatefulWidget {
   @override

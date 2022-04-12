@@ -1,8 +1,8 @@
+import 'package:app_entregador_mercado/screens/shopping_cart.dart';
 import 'package:flutter/material.dart';
-import 'package:user_edink/screens/marketplace.dart';
-import 'package:user_edink/screens/shopping_cart.dart';
 
 import 'drawer.dart';
+import 'marketplace.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key key}) : super(key: key);

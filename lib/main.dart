@@ -1,6 +1,6 @@
+import 'package:app_entregador_mercado/screens/SplashScreen.dart';
+import 'package:app_entregador_mercado/screens/login.dart';
 import 'package:flutter/material.dart';
-import 'package:user_edink/screens/SplashScreen.dart';
-import 'package:user_edink/screens/login.dart';
 
 void main() => runApp(new MyApp());
 

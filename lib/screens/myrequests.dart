@@ -1,5 +1,6 @@
+import 'package:app_entregador_mercado/screens/request.dart';
 import 'package:flutter/material.dart';
-import 'package:user_edink/screens/request.dart';
+
 
 class MyRequests extends StatefulWidget {
   const MyRequests({Key key}) : super(key: key);
@@ -38,8 +39,8 @@ class _MyRequestsState extends State<MyRequests> {
                       child: Card(
                         child: Column(
                             // mainAxisSize: MainAxisSize.min,
-                            children: <Widget>[
-                              const ListTile(
+                            children: const <Widget>[
+                              ListTile(
                                 leading: Icon(
                                   Icons.store_mall_directory_rounded,
                                   size: 50,
@@ -90,8 +91,8 @@ class _MyRequestsState extends State<MyRequests> {
                       child: Card(
                         child: Column(
                             // mainAxisSize: MainAxisSize.min,
-                            children: <Widget>[
-                              const ListTile(
+                            children: const <Widget>[
+                              ListTile(
                                 leading: Icon(
                                   Icons.store_mall_directory_rounded,
                                   size: 50,
@@ -142,8 +143,8 @@ class _MyRequestsState extends State<MyRequests> {
                       child: Card(
                         child: Column(
                             // mainAxisSize: MainAxisSize.min,
-                            children: <Widget>[
-                              const ListTile(
+                            children: const <Widget>[
+                              ListTile(
                                 leading: Icon(
                                   Icons.store_mall_directory_rounded,
                                   size: 50,
@@ -194,8 +195,8 @@ class _MyRequestsState extends State<MyRequests> {
                     child: Card(
                       child: Column(
                           // mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            const ListTile(
+                          children: const <Widget>[
+                            ListTile(
                               leading: Icon(
                                 Icons.store_mall_directory_rounded,
                                 size: 50,

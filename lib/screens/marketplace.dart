@@ -1,6 +1,6 @@
+import 'package:app_entregador_mercado/screens/product.dart';
+import 'package:app_entregador_mercado/screens/shopping_cart.dart';
 import 'package:flutter/material.dart';
-import 'package:user_edink/screens/product.dart';
-import 'package:user_edink/screens/shopping_cart.dart';
 
 class Marketplace extends StatefulWidget {
   const Marketplace({Key key}) : super(key: key);
